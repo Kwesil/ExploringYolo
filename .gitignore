@@ -1,0 +1,38 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore model weights or large files
+*.h5
+*.ckpt
+*.weights
+
+# Ignore dataset files
+*.csv
+*.json
+*.xml
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore other unnecessary files
+*.bak
+*.olds
